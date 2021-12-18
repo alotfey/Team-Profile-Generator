@@ -1,0 +1,19 @@
+{
+    "name": "static-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "inquirer": "^8.2.0",
+        "inquirer-recursive": "^0.0.7",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "jest": "^27.4.4"
+    }
+}
