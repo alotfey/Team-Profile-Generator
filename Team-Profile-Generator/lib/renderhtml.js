@@ -9,6 +9,7 @@ function generateHeader() {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Team</title>
 </head>
@@ -31,7 +32,7 @@ function generateHeader() {
       return `
       
 <div class="card">
-<h5 class="card-header bg-primary  text-center">${data.mName} <br> Manager</h5>
+<h5 class="card-header bg-primary text-white  text-center">${data.mName} <br><i class="fas fa-mug-hot"></i> Manager</h5>
 <ul class="list-group list-group-flush">
     <li class="list-group-item">ID: ${data.mId}</li>
     <li class="list-group-item">Email: <a href = "mailto: ${data.mEmail}">${data.mEmail}</a></li>
@@ -45,7 +46,7 @@ function generateHeader() {
   function newEngineerHtml(data) {
     return `
     <div class="card">
-<h5 class="card-header bg-primary  text-center">${data.engName} <br> Engineer</h5>
+<h5 class="card-header bg-primary text-white   text-center">${data.engName} <br><i class="fas fa-glasses"></i> Engineer</h5>
 <ul class="list-group list-group-flush">
     <li class="list-group-item">ID: ${data.engId}</li>
     <li class="list-group-item">Email: <a href = "mailto: ${data.engEmail}">${data.engEmail}</a></li>
@@ -60,7 +61,7 @@ function generateHeader() {
 function newInternHtml(data) {
     return `
     <div class="card">
-    <h5 class="card-header bg-primary  text-center">${data.inName} <br> Intern</h5>
+    <h5 class="card-header bg-primary text-white   text-center">${data.inName} <br><i class="fas fa-user-graduate"></i> Intern</h5>
     <ul class="list-group list-group-flush">
         <li class="list-group-item">ID: ${data.inId}</li>
         <li class="list-group-item">Email: <a href = "mailto: ${data.inEmail}">${data.inEmail}</a></li>
