@@ -19,7 +19,7 @@ const managerQ = [
     {
         type: "input",
         name: "ophone",
-        message: "What's team manager’s office phone?"
+        message: "What's team manager’s office number?"
     },
     
 ]

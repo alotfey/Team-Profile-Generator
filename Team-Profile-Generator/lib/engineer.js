@@ -9,6 +9,7 @@ class Engineer extends Employee {
         // Add a new property
         this.github = github;
     }
+
 }
 
 module.exports = Engineer;

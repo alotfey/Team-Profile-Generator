@@ -9,9 +9,7 @@ class Manager extends Employee {
         // Add a new property
         this.officeNumber = officeNumber;
     }
-    getOfficeNumber(){
-        return this.officeNumber
-    }
+
 }
 module.exports = Manager;
 
